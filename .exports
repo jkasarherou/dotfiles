@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# don't clear screen after man page exit
+export MANPAGER="less -X";
