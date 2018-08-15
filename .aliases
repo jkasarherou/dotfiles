@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# cp interactive
+alias cp='cp -i'
+# mv interactive
+alias mv='mv -i'

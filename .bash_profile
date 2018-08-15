@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for file in ~/.{bash_prompt,path,exports}; do
+for file in ~/.{bash_prompt,aliases,funcs,path,exports}; do
 	if [[ -r "$file" ]] && [[ -f "$file" ]]; then
 		source "$file"
 	fi
