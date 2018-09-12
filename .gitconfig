@@ -1,0 +1,13 @@
+[alias]
+	s = status -s
+
+	amend = commit --amend --reuse-message=HEAD
+
+	tags = tag -l
+
+	branches = branch -a
+
+	remotes = remote -v
+
+[help]
+	autocorrect = 1
